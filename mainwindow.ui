@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>993</width>
-    <height>697</height>
+    <width>1253</width>
+    <height>826</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,7 +24,7 @@ background-color: rgb(255, 247, 239);</string>
      <x>0</x>
      <y>0</y>
      <width>201</width>
-     <height>851</height>
+     <height>1191</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -35,30 +35,35 @@ background-color: rgb(122, 222, 222);</string>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>20</y>
-     <width>311</width>
-     <height>91</height>
+     <x>240</x>
+     <y>0</y>
+     <width>501</width>
+     <height>121</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font-size: 30px;
+    <string notr="true">font-size: 50px;
 font: bold;
 color: rgb(122, 222, 222);
 color: rgb(12, 151, 151);</string>
    </property>
    <property name="text">
-    <string>Английские слова</string>
+    <string> Английские слова</string>
    </property>
   </widget>
   <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>190</y>
-     <width>761</width>
-     <height>381</height>
+     <x>230</x>
+     <y>200</y>
+     <width>701</width>
+     <height>581</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
    </property>
    <property name="columnCount">
     <number>3</number>
@@ -70,10 +75,10 @@ color: rgb(12, 151, 151);</string>
   <widget class="QPushButton" name="gotolearn">
    <property name="geometry">
     <rect>
-     <x>730</x>
-     <y>110</y>
-     <width>201</width>
-     <height>41</height>
+     <x>680</x>
+     <y>130</y>
+     <width>241</width>
+     <height>61</height>
     </rect>
    </property>
    <property name="text">
