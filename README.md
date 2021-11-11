@@ -37,6 +37,7 @@
 ![loading...](https://github.com/PrakhovEgor/PQTY-project/blob/main/8.png)
 
 <h3>В этом приложении используется модули:</h3>
+
 + pyqt5 - создание интерфейса
 + random - генерация слов
 + sqlite3 - использование баз данных
